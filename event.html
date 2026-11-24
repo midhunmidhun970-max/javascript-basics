@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body id="a">
+        <h2 id="head1" onmouseleave="leave()">welcome to DOM</h2>
+        <div  id="grp1">
+
+        </div>
+
+  <ul>
+    <li class="lichild">Apple</li>
+    <li class="lichild">Orange</li>
+    <li class="lichild">Banana</li>
+  </ul>
+
+  <input type="date" name="date" id="">
+
+<p>Morning light filters through the tall trees outside the window. A warm cup of tea sits beside the notebook on the wooden desk.
+     Typing slowly helps your fingers find each key without looking down. Steady practice builds clean habits, smooth spacing, and lasting confidence at the keyboard.</p>
+<p>Every project starts with a simple plan, a clear goal, and a few focused hours of work. When distractions pop up, close extra
+     tabs and return to the task in front of you. Small daily improvements add up quickly, whether you are writing emails, notes, or longer reports.</p>
+
+     <input type="date" name="" id="date">
+     <button onclick="show()">click me</button><br><br>
+
+     <!-- <input type="text" name="" id="text" onkeypress="display(event)" onkeyup="display(event)" onkeydown="display(event)"> -->
+      <form action="">
+<input type="text" id="text" onfocus="focusn()" onblur="blurfn()">
+</form>
+<center>
+<form onsubmit="return validate()">
+    <label for="email">email</label><br><br>
+    <input type="text" id="email" required><br><br>
+
+    <span id="error"></span><br><br>
+
+    <label for="password">password</label><br><br>
+    <input type="password" id="password" required><br><br>
+
+    <button type="submit">submit</button>
+</form><br>
+
+<button onclick="show()">click me</button><br><br>
+<label>enter any number between 5 and 10</label><br><br>
+<input type="text" name="" id="num"><br><br>
+<span id="errmsg"></span>
+<button onclick="verify()">Click Me</button>
+
+</center>
+    <script src="event.js"></script>
+    
+</body>
+</html>

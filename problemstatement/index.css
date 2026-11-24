@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial;
+    background-color: lightblue;
+}
+
+form {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+input, select {
+    margin: 8px 0;
+    padding: 8px;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
